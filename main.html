@@ -9,19 +9,19 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1> <b>Car Insurance Registration Form</b></h1>
-	<form id= "car insurance ">
+	<form  method="post" id= "car insurance ">
 		<label for= name id="name" name="name">Name</label>
-		<input type ="text" for =name id ="name" placeholder="Name">
+		<input type ="text" for =name id ="name" placeholder="Name" required/>
 		<br>
 		<label for ="email" id= "email" name="email">Email</label>
-		<input type =email id ="email" name = "email " placeholder="enter your email">
+		<input type =email id ="email" name = "email " placeholder="enter your email" required>
 		<br>
 		<label for= gender name="gender" id ="gender">Gender</label>
 		<br>
-		<input type = "radio" for ="gender" id ="gender" name="gender" value="male">
+		<input type = "radio" for ="gender" id ="gender" name="gender" value="male" required/>
 		<label for = "male">Male</label>
 		<br>
-		<input type = "radio" for ="gender" id ="gender" name="gender" value="female">
+		<input type = "radio" for ="gender" id ="gender" name="gender" value="female" required/>
 		<label for = "Female">Female</label>
 		<br>
 		<label for="cars" >Car Brands</label>
@@ -33,15 +33,15 @@
 		 </select>
 		<br>
 		<label for ="carage" >Carage</label>
-		<input type= "number" for ="carage" id="carage" name="carage" placeholder="Carage">
+		<input type= "number" for ="carage" id="carage" name="carage" placeholder="Carage" required/>
 		<br>
 		<label for ="dop">Date of Purchase (dop)</label>
-		<input type ="date" for="dop" name="dop " id="dop">
+		<input type ="date" for="dop" name="dop " id="dop" required/>
 		<br>
 		<label for= "passwaord">Password</label>
-		<input type ="password" for="password" id = "password" name="password" placeholder= "Enter the Password">
+		<input type ="password" for="password" id = "password" name="password" placeholder= "Enter the Password" required/>
 		<br>
-		<input type = "submit">
+		<button type="submit">submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
